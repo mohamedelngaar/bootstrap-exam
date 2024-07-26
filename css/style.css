@@ -1,0 +1,219 @@
+:root {
+    scroll-behavior: smooth;
+  }
+/* Header section */
+/* #home .carousel-inner .carousel-item .img{
+    background-size: cover;
+    background-position: center;
+    height: 80%;
+} */
+#home h1 {
+    font-size: 6rem;
+    font-weight: 900;
+}
+
+#home p{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.btn-hov{
+    border: solid 1px white;
+    color: white;
+}
+.btn-hov:hover{
+    background-color: white;
+    color: black;
+    transition-duration: 1s;
+}
+/* Navbar */
+nav .nav-link{
+    color: white;
+}
+.social-icon i{
+    color: white;
+}
+/* about */
+.about-content h6{
+    font-weight: 500;
+    font-size: 13px;
+    letter-spacing: 0.05em;
+    margin-top: 0;
+}
+.about-content p{
+    font-size: 17px;
+    margin: 10px 0; 
+    font-weight: 300;
+}
+.about-content .about-button a
+{
+border: 1px solid black;
+border-radius: 0;
+font-size: 10px;
+font-weight: bolder;
+}
+.about-content .about-button a:hover{
+    background-color: black;
+    color: white;
+}
+.about-content .anim-about::after{
+content: "|";
+color: #00c3da ;
+animation-name:typing;
+animation-duration: 3.5s;
+animation-delay: 1s;
+animation-iteration-count: infinite;
+}
+@keyframes typing{
+    0%{content: " S|";}
+    2%{content: " So|";}
+    4%{content: " Sof|";}
+    6%{content: " Soft|";}
+    8%{content: " Softw|";}
+    10%{content: " Softwa|";}
+    12%{content: " Softwar|";}
+    14%{content: " Software|";}
+    16%{content: " Software|";}
+    18%{content: " Softwar|";}
+    20%{content: " Softwa|";}
+    22%{content: " Softw|";}
+    24%{content: " Soft|";}
+    26%{content: " Sof|";}
+    28%{content: " So|";}
+    30%{content: " S|";}
+    32%{content: " |";}
+    34%{content: " a|";}
+    36%{content: " ap|";}
+    38%{content: " app|";}
+    40%{content: " apps|";}
+    42%{content: " apps|";}
+    44%{content: " app|";}
+    46%{content: " ap|";}
+    48%{content: " a|";}
+    50%{content: " |";}
+    52%{content: " w|";}
+    54%{content: " we|";}
+    56%{content: " web|";}
+    58%{content: " webs|";}
+    60%{content: " websi|";}
+    62%{content: " websit|";}
+    64%{content: " website|";}
+    66%{content: " website|";}
+    68%{content: " websit|";}
+    70%{content: " websi|";}
+    72%{content: " webs|";}
+    74%{content: " web|";}
+    76%{content: " we|";}
+    78%{content: " w|";}
+    80%{content: " |";}
+}
+/* team */
+.title h2{
+    font-size: 5rem;
+    font-weight: 700;
+    color: #f4f4f4;
+}
+.title h3{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: black;
+}
+.title>h4 {
+    font-weight: 400;
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #787878;
+}
+.image-content img{
+    width: 100%;
+}
+
+.image-layer{
+    position: relative;
+    overflow: hidden;
+}
+.layer{
+    width: 93%;
+    height: 100%;
+    position: absolute;
+    top: 10%;
+    opacity: 0;
+    transition: all 0.5s;
+}
+.image-layer:hover .layer{
+    opacity: 75%;
+    top: 0;
+}
+.team-content h4{
+    font-size: 1rem;
+}
+/* services */
+ h4.upper {
+    font-size: 13px;
+    letter-spacing: 0.1em;
+}
+ul li{
+    list-style-type: none;
+}
+.check-list>li {
+    padding: 6px 0;
+}
+.service-title{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #f4f4f4;
+    position: relative;
+    z-index: 0;
+}
+
+.service-title::before{
+    content: "W";
+    color: rgba(169, 169, 169, 0.515);
+    font-size: 4rem;
+    font-weight: bolder;
+    position: relative;
+    left: 9%;
+    top: 0;
+  z-index: -1;
+}
+/* prices */
+.pricing-table .price h2 span {
+    font-size: 18px;
+    font-weight: 400;
+    vertical-align: top;
+}
+.pricing-table .price h2 {
+    font-size: 55px;
+    font-weight: 500;
+    letter-spacing: -3px;
+    margin: 0;
+}
+.pricing-table .features>li {
+    padding: 8px 0;
+}
+.pricing-table .features {
+    margin-top: 15px;
+}
+.one:hover{
+    transition-duration: 0.5s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/* HAPPY CUSTOMERS */
+.img-pos {
+    width: 90px;
+        border-radius: 50%;
+    transform: translateY(50%);
+}
+.client-img{
+    width: 90px;
+    border-radius: 50%;
+    transform: translateY(50%);
+}
+.ff-slide:hover{
+    transition-duration: 0.5s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#testimonial .carousel-indicators [data-bs-target]{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
